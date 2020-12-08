@@ -1,15 +1,15 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
 public class Tablet {
     String tabletID;
     String status;
 
+    public Tablet() {
+    }
+
     public Tablet(String tabletID, String status) {
         this.tabletID = tabletID;
         this.status = status;
-    }
-
-    public Tablet() {
     }
 
     public String getTabletID() {

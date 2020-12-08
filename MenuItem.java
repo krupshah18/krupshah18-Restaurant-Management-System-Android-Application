@@ -1,4 +1,4 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
 public class MenuItem {
     String dishName;
@@ -9,6 +9,9 @@ public class MenuItem {
         this.dishName = dishName;
         this.ingredientName = ingredientName;
         this.quantity = quantity;
+    }
+
+    public MenuItem() {
     }
 
     public String getQuantity() {

@@ -1,18 +1,20 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
-public class NotificationClass {
+import java.io.Serializable;
 
-    private String itemName;
-    private String time;
-    private boolean read;
+public class NotificationClass implements Serializable {
+    String itemName;
+    boolean read;
+    String time;
 
     public NotificationClass() {
+        //Default Constructor required for calls to DataSnapshot.getValue(User.class)
     }
 
-    public NotificationClass(String itemName, String time, boolean read) {
+    public NotificationClass(String itemName, boolean read, String time) {
         this.itemName = itemName;
-        this.time = time;
         this.read = read;
+        this.time = time;
     }
 
     public String getItemName() {
@@ -23,19 +25,19 @@ public class NotificationClass {
         this.itemName = itemName;
     }
 
-    public String getTime() {
-        return time;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
-    }
-
     public boolean isRead() {
         return read;
     }
 
     public void setRead(boolean read) {
         this.read = read;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 }

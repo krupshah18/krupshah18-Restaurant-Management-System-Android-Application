@@ -1,4 +1,4 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
 public class Item {
 
@@ -7,9 +7,8 @@ public class Item {
     String quantity;
     String threshold;
 
-
-    public Item() {
-    }
+    public Item()
+    {}
 
     public Item(String name, String price, String quantity, String threshold) {
         this.name = name;
@@ -50,6 +49,8 @@ public class Item {
     public void setQuantity(String quantity) {
         this.quantity = quantity;
     }
+
+
 
 
 }

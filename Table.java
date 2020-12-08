@@ -1,17 +1,18 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
 public class Table {
     String tableID;
     String status;
     String capacity;
 
+    public Table() {
+
+    }
+
     public Table(String tableID, String status, String capacity) {
         this.tableID = tableID;
         this.status = status;
         this.capacity = capacity;
-    }
-
-    public Table() {
     }
 
     public String getTableID() {

@@ -1,19 +1,37 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
+
+/**
+ * Created by Khalid on 12/2/2018.
+ */
 
 public class Employee {
-    String id, name, email, password, specialty, salary, type;
+    String email;
+    String id;
+    String name;
+    String password;
+    String salary;
+    String speciality;
+    String type;
 
-    public Employee(String id, String name, String email, String password, String specialty, String salary, String type) {
+    public Employee() {
+    }
+
+    public Employee(String email, String id, String name, String password, String salary, String speciality, String type) {
+        this.email = email;
         this.id = id;
         this.name = name;
-        this.email = email;
         this.password = password;
-        this.specialty = specialty;
         this.salary = salary;
+        this.speciality = speciality;
         this.type = type;
     }
 
-    public Employee() {
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getId() {
@@ -32,28 +50,12 @@ public class Employee {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getSpecialty() {
-        return specialty;
-    }
-
-    public void setSpecialty(String specialty) {
-        this.specialty = specialty;
     }
 
     public String getSalary() {
@@ -64,6 +66,14 @@ public class Employee {
         this.salary = salary;
     }
 
+    public String getSpeciality() {
+        return speciality;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
+
     public String getType() {
         return type;
     }
@@ -72,3 +82,4 @@ public class Employee {
         this.type = type;
     }
 }
+

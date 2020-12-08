@@ -1,4 +1,4 @@
-package com.dineout.code.admin;
+package com.dineout.code.hall.DB;
 
 public class Menu {
     private String dishName;
