@@ -11,25 +11,8 @@ DineOut is an **Android based Restaurant Management System** that aims to digita
 The main purpose is to **improve the performance** of the restaurant by eradicating the daily paperwork. With this system the tasks
 would be performed in less amount of time and more efficiently. An additional benefit of this software is that during the rush hours the load can be balanced effectively, and restaurants would perform better than usual. In addition to this, human error that occurs when performing tasks manually is also minimized and presence of queues in the system to assign tasks to chefs can reduce congestion in the kitchen. The system would also result in reduction of labor which would result in the reduction of expenses of the restaurant. Feedback module would help the restaurant check for how well they are performing, and monthly/yearly figures can be checked by the billing module to see the trends in sales and profits. These benefits can potentially result in generation of more revenues for the restaurant. 
 
-***For complete details regarding the Functional, Non-Functional Requirements and Analysis Models, you can refer to the detailed [Software Requirements Specification document](../master/documents/SRS%20(Latest).pdf).***
-
 ## Purpose
 This application was developed as a final project for our **Software Engineering (CS303)** Course. The whole class was divided into teams of 4-5 members and each team was assigned a particular module of this Restaurant Management System. Besides coding our own module, at the end, **our team was also given the responsibility to meet other teams, discuss and resolve the issues that they are facing in the application and ultimately take their developed modules and integrate all the modules together into one working application**. This exercise made us familiar with the issues that occur during the integration of modules in real software projects like following consistent database schema, variable names, libraries versions etc.
-
-
----
-## 👨🏼‍💻 Contributors
-It was really fun to work with these awesome geeks to get the job done:
-
-* [Ramsha Siddiqui](https://github.com/Rmsharks4)
-* [Hassaan Elahi](https://github.com/Hassaan-Elahi)
-* [Mahnoor Kashif](https://github.com/mahnoorkashif)
-* [Shafaq Arshad](https://github.com/Shafaq15)
-* [Marriam Sajid](https://github.com/marriamsajid)
-* All members of the Software Engineering class of Spring 2018 :)
-
----
-
 
 ## User Classes and Characteristics
 There are **five** types of users for our system. 
@@ -81,17 +64,7 @@ The login credentials for Admin, Hall and Kitchen Manager's interfaces are:
 
 All have the password: 123456
 
-## Contributions Welcome
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](#)
-
-If you find any bug in the code or have any improvements in mind then feel free to generate a pull request.
-
-## Issues
-[![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Restaurant-Management-System.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Restaurant-Management-System/issues)
-
-If you face any issue, you can create a new issue in the Issues Tab and I will be glad to help you out.
 
 ## License
 [![MIT](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=style&label=License&maxAge=2592000)](../master/LICENSE)
-
-Copyright (c) 2018-present, harismuneer, rmsharks4, Hassaan-Elahi, mahnoorkashif, shafaq15, marriamsajid, Software Engineering class of Spring 2018                                                        
+                                                     
