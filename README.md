@@ -64,7 +64,4 @@ The login credentials for Admin, Hall and Kitchen Manager's interfaces are:
 
 All have the password: 123456
 
-
-## License
-[![MIT](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=style&label=License&maxAge=2592000)](../master/LICENSE)
                                                      
